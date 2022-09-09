@@ -57,14 +57,6 @@ body {
 }
 
 
-#navbar {
-    background-color: rgba(0, 0, 144, 0.722);
-    width: 1527.5px;
-    margin-left: -1rem;
-    height: 10.5rem;
-    margin-top: -10rem;
-}
-
 
 #insta {
     margin-top: 7rem;
@@ -75,7 +67,7 @@ body {
 }
 
 #insta:hover {
-    color: pink;
+    color: hotpink;
 }
 
 #twitter {
@@ -86,9 +78,6 @@ body {
     color: white;
 }
 
-#insta:hover {
-    color: blue
-}
 
 #twitter:hover {
     color: blue
@@ -115,87 +104,95 @@ body {
 }
 
 #fb:hover {
-    color: blue;
+    color: rgb(130, 130, 255);
 }
 
-#sf {
-    width: 94rem;
-    margin-left: 0rem;
-    margin-top: 25rem;
+footer {
+    background-color: rgb(89, 89, 255);
+    font-size: 1.2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: -0.6rem;
+    width: 95rem;
+    bottom: 0;
+    right: 0;
+}
+
+footer p {
+    padding: 6.5px;
 }
 
 #hone {
     font-size: 2.8rem;
+    margin-left: 1rem;
     margin-top: 1rem;
-    margin-left: 33.5rem;
-    color: whitesmoke;
-    font-family: 'Combo', cursive;
-
-}
-
-#s1l {
-    height: 220px;
-    width: 228px;
-    margin-top: 1rem;
-    margin-left: 42rem;
-}
-
-#vml {
-    margin-top: 2rem;
-    margin-left: 18rem;
-    width: 63rem;
-}
-
-#htwo {
-    font-size: 2.4rem;
-    margin-left: 41rem;
+    font-family: 'Merriweather', serif;
     color: orangered;
 }
 
-#s2l {
-    height: 220px;
-    width: 228px;
-    margin-left: 41rem;
-
+#pone {
+    color: blue;
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
-#hthree {
-    font-size: 2.4rem;
-    margin-left: 39rem;
-    color: white;
-    font-family: 'Baloo 2', cursive;
-    
+#pone a {
+    color: blue;
+    text-decoration: none;
 }
 
-#mts {
-    margin-top: 2rem;
-    margin-left: 18rem;
-    width: 63rem;
+#pone a:hover {
+    color: rgb(134, 134, 255);
+    text-decoration: underline;
 }
 
-.all {
-    border: 3px solid #66ccff;
-    margin: 1rem;
-    background: linear-gradient(blue,pink);
+#akamh::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background: url(bck.png);
+    z-index: -1;
+    opacity: 1;
+    margin-left: -0.5rem;
+    margin-top: -1rem;
 }
 
+#ptwo {
+    font-size: 1.6rem;
+    margin-top: 6rem;
+    text-align: center;
+    color: rgb(0, 224, 0);
+    font-family: 'Merriweather', serif;
+}
 
+#player {
+    margin-left: 1rem;
+    height: 37rem;
+    width: 92rem;
+}
 
+#pthree{
+    font-size: 1.8rem;
+    color: orangered;
+    margin-left: 1rem;
+    text-align: center;
+}
 
-@media only screen and (min-width:150px) and (max-width:430px) {
+@media only screen and (min-width:150px) and (max-width:430px){
 
-  
     #navbar {
         height: 16rem;
-        width: 26.4rem;
+        width: 20rem;
         overflow: hidden;
     }
+
 
     #wl {
         width: 167px;
         height: 104px;
         display: flex;
-        margin-left: 6.5rem;
+        margin-left: 7.5rem;
         margin-top: 0rem;
         min-height: 0px;
     }
@@ -203,12 +200,18 @@ body {
 
     #nav ul li {
         list-style: none;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-left: -31rem;
         /* overflow: hidden; */
         display: inline;
     }
 
+    #navbar {
+        height: 15rem;
+        width: 27.4rem;
+        overflow: hidden;
+        margin-top: -9em;
+    }
 
     #nav ul li a {
         margin: 263px;
@@ -217,8 +220,8 @@ body {
     }
 
     #insta {
-        margin-top: 23.5rem;
-        margin-left: -25rem;
+        margin-top: 22.5rem;
+        margin-left: -27rem;
         width: 20px;
         cursor: pointer;
         color: white;
@@ -226,80 +229,52 @@ body {
 
 
     #twitter {
-        margin-top: 23.5rem;
-        margin-left: -27rem;
+        margin-top: 22.5rem;
+        margin-left: -29rem;
         width: 20px;
         cursor: pointer;
         color: white;
     }
 
     #yt {
-        margin-top: 23.5rem;
-        margin-left: -23rem;
+        margin-top: 22.5rem;
+        margin-left: -25rem;
         width: 20px;
         cursor: pointer;
         color: white;
     }
 
     #fb {
-        margin-top: 23.5rem;
-        margin-left: -21rem;
+        margin-top: 22.5rem;
+        margin-left: -23rem;
         width: 20px;
         cursor: pointer;
         color: white;
     }
-    
-    #hone {
-        font-size: 2.8rem;
-        margin-top: 1rem;
-        margin-left: 0.5rem;
-        color: whitesmoke;
-        font-family: 'Combo', cursive;
-        text-align: center;
+
+    #akamh::before {
+        content: "";
+        position: absolute;
+        width: 119.9%;
+        height: 52%;
+        background: url(bck.png);
+        z-index: -1;
+        opacity: 1;
+        margin-left: -0.5rem;
+        margin-top: -1rem;
     }
 
-    #htwo {
-        margin-top: 1rem;
-        margin-left: 1rem;
-        text-align: center;
-    }
-
-    #s1l {
-        margin-top: 1rem;
-        margin-left: 5rem;
-    }
-
-    #vml {
-        margin-left: 1rem;
-        margin-top: 1rem;
+    #player {
         width: 22rem;
+        height: 13rem;
+        margin-left: -0rem;
     }
 
-    #hthree {
-        font-size: 2.4rem;
-        margin-left: 0rem;
+    #ptwo {
         text-align: center;
-        color: white;
+        margin-left: 2.5rem;
     }
 
-    #s2l {
-        margin-top: 1rem;
-        margin-left: 5rem;
-    }
-
-    #mts {
-        margin-left: 1rem;
-        margin-top: 1rem;
-        width: 22rem;
-    }
-
-
-    .all {
-        border: 3px solid #66ccff;
-        margin: auto;
-        width: 24.5rem;
-        margin-top: 1rem;
-    }
 }
 
 @media only screen and (min-width:431px) and (max-width:840px) {
@@ -361,75 +336,22 @@ body {
         color: white;
     }
 
-    #hgth::before {
+    #akamh::before {
         content: "";
         position: absolute;
         width: 100%;
-        height: 17%;
+        height: 15%;
         background: url(bck.png);
         z-index: -1;
         opacity: 1;
         margin-left: -0.5rem;
-        margin-top: -2rem;
+        margin-top: -1rem;
     }
 
-    .box {
-        margin: 19px;
-        background-color: #272c4c;
-        height: 133px;
-        border-radius: 10px;
-        width: 48rem;
-    }
-
-    #fb {
-        margin-top: 24.7rem;
-        margin-left: -26rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #hone {
-        font-size: 2.8rem;
+    #player {
+        margin-left: -1.5rem;
+        height: 22rem;
+        width: 47rem;
         margin-top: 1rem;
-        margin-left: 12rem;
-        color: blue;
-    }
-
-    #htwo {
-        font-size: 2.4rem;
-        margin-left: 19rem;
-        color: orangered;
-    }
-
-    #s1l {
-        height: 220px;
-        width: 228px;
-        margin-top: 1rem;
-        margin-left: 20rem;
-    }
-
-    #vml {
-        margin-top: 2rem;
-        margin-left: 0rem;
-        width: 48rem;
-    }
-
-    #hthree {
-        font-size: 2.4rem;
-        margin-left: 17rem;
-        color: rgb(0, 216, 0);
-    }
-
-    #s2l {
-        height: 220px;
-        width: 228px;
-        margin-left: 20rem;
-    }
-
-    #mts {
-        margin-top: 2rem;
-        margin-left: 0rem;
-        width: 48rem;
     }
 }
