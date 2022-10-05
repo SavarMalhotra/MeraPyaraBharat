@@ -1,0 +1,549 @@
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+#wl {
+    width: 228px;
+    height: 136px;
+    display: inline;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+
+
+#nav ul li {
+    list-style: none;
+    margin-top: 3.4rem;
+}
+
+#nav ul li a {
+    margin: 58px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#nav ul li a:hover {
+
+    color: gold;
+    text-decoration: underline;
+    color: gold;
+    transition: all 350ms ease 0s;
+    -webkit-transition: all 350ms ease 0s;
+}
+
+
+#nav ul {
+    display: flex;
+    min-height: 0px;
+    min-height: 0px;
+    margin-top: -9rem;
+    margin-left: 17rem;
+    height: 148px;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 144, 0.722);
+    width: 1542.9px;
+    margin-left: -1rem;
+    height: 10.5rem;
+    margin-top: -10rem;
+}
+
+#insta {
+    margin-top: 7rem;
+    margin-left: -35rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#insta:hover {
+    color: pink;
+}
+
+#twitter {
+    margin-top: 7rem;
+    margin-left: -32rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#insta:hover {
+    color: blue
+}
+
+#twitter:hover {
+    color: blue
+}
+
+#yt {
+    margin-top: 7rem;
+    margin-left: -29rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#yt:hover {
+    color: red;
+}
+
+#fb {
+    margin-top: 7rem;
+    margin-left: -26rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#fb:hover {
+    color: blue;
+}
+
+#sf {
+    width: 94rem;
+    margin-left: 0rem;
+    margin-top: 25rem;
+}
+
+#hone {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-left: 33.5rem;
+    color: whitesmoke;
+    font-family: 'Combo', cursive;
+
+}
+
+#s1l {
+    height: 220px;
+    width: 228px;
+    margin-top: 1rem;
+    margin-left: 11rem;
+}
+
+
+#play {
+    margin-left: -8.6rem;
+    margin-top: 1rem;
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 20px;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    padding: 9px;
+    color: white;
+}
+
+#play:hover{
+    cursor: pointer;
+    color: rgb(209, 209, 209);
+    background-color: rgb(255, 186, 59);
+    transition: all 350ms ease 0s;
+}
+
+
+#vml {
+    margin-top: 2rem;
+    margin-left: 18rem;
+    width: 63rem;
+}
+
+#htwo {
+    font-size: 2.3rem;
+    margin-left: 9.6rem;
+    color: red;
+    margin-top: 0rem;
+    font-family: 'Combo', cursive;
+    display: flex;
+}
+
+#hfour {
+    font-size: 2.3rem;
+    margin-left: 6.6rem;
+    color: red;
+    margin-top: 0rem;
+    font-family: 'Combo', cursive;
+    display: flex;
+}
+
+
+#s2l {
+    height: 220px;
+    width: 228px;
+    margin-left: 41rem;
+
+}
+
+#hthree {
+    font-size: 2.4rem;
+    margin-left: 39rem;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+#mts {
+    margin-top: 2rem;
+    margin-left: 18rem;
+    width: 63rem;
+}
+
+.all {
+    border: 3px solid #66ccff;
+    margin: 1rem;
+    height: 29rem;
+    background: linear-gradient(blue, pink);
+}
+
+#song2{
+margin-left: 49rem;
+margin-top: -21rem;
+}
+
+
+#loading {
+    width: 103%;
+    height: 117vh;
+    background: white url(image_processing20191002-6429-tbqgfv.gif) no-repeat center center;
+    position: fixed;
+    z-index: 9999999;
+    background-size: 30%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+#pbhtv {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 93rem;
+    margin-top: -9rem;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    text-decoration: none;
+}
+
+#pbhtv:hover {
+    color: red;
+    transition: .2s ease-in-out;
+}
+
+@media only screen and (min-width:150px) and (max-width:430px) {
+
+
+    #navbar {
+        height: 16rem;
+        width: 26.4rem;
+        overflow: hidden;
+    }
+
+    #wl {
+        width: 167px;
+        height: 104px;
+        display: flex;
+        margin-left: 6.5rem;
+        margin-top: 0rem;
+        min-height: 0px;
+    }
+
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 4rem;
+        margin-left: -31rem;
+        /* overflow: hidden; */
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 263px;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+    #insta {
+        margin-top: 23.5rem;
+        margin-left: -25rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+
+    #twitter {
+        margin-top: 23.5rem;
+        margin-left: -27rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #yt {
+        margin-top: 23.5rem;
+        margin-left: -23rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #fb {
+        margin-top: 23.5rem;
+        margin-left: -21rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #hone {
+        font-size: 2.8rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        color: whitesmoke;
+        font-family: 'Combo', cursive;
+        text-align: center;
+    }
+
+    #htwo {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    #s1l {
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    #vml {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 22rem;
+    }
+
+    #hthree {
+        font-size: 2.4rem;
+        margin-left: 0rem;
+        text-align: center;
+        color: white;
+    }
+
+    #s2l {
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    #mts {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 22rem;
+    }
+
+
+    .all {
+        border: 3px solid #66ccff;
+        margin: auto;
+        width: 24.5rem;
+        margin-top: 1rem;
+        height: 58rem;
+    }
+    
+    #song2 {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    #hfour {
+        font-size: 2.3rem;
+        margin-left: 1.6rem;
+        color: rgb(255, 173, 143);
+        margin-top: 0rem;
+        font-family: 'Combo', cursive;
+        display: flex;
+        text-align: center;
+    }
+    
+    #htwo {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        text-align: center;
+    }    
+}
+
+@media only screen and (min-width:431px) and (max-width:1024px) {
+    #navbar {
+        height: 18rem;
+        width: 48.8rem;
+        overflow: hidden;
+        margin-top: -8rem;
+    }
+
+    #wl {
+        width: 196px;
+        height: 113px;
+        display: flex;
+        margin-left: 19.5rem;
+        margin-top: 0rem;
+        min-height: 0px;
+    }
+
+
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 6rem;
+        margin-left: -23rem;
+        /* overflow: hidden; */
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 226px;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+
+    #insta {
+        margin-top: 24.7rem;
+        margin-left: -30rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #twitter {
+        margin-top: 24.7rem;
+        margin-left: -32rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #yt {
+        margin-top: 24.7rem;
+        margin-left: -28rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #hgth::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 17%;
+        background: url(bck.png);
+        z-index: -1;
+        opacity: 1;
+        margin-left: -0.5rem;
+        margin-top: -2rem;
+    }
+
+    .box {
+        margin: 19px;
+        background-color: #272c4c;
+        height: 133px;
+        border-radius: 10px;
+        width: 48rem;
+    }
+
+    #fb {
+        margin-top: 24.7rem;
+        margin-left: -26rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #hone {
+        font-size: 2.8rem;
+        margin-top: 1rem;
+        margin-left: 12rem;
+        color: blue;
+    }
+
+    #htwo {
+        font-size: 2.4rem;
+        margin-left: 19rem;
+        color: orangered;
+    }
+
+    #s1l {
+        height: 220px;
+        width: 228px;
+        margin-top: 1rem;
+        margin-left: 20rem;
+    }
+
+    #vml {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 48rem;
+    }
+
+    #hthree {
+        font-size: 2.4rem;
+        margin-left: 17rem;
+        color: rgb(0, 216, 0);
+    }
+
+    #s2l {
+        height: 220px;
+        width: 228px;
+        margin-left: 20rem;
+    }
+
+    #mts {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 48rem;
+    }
+
+    #all{
+        width: 48rem;
+    }
+
+    #song1{
+        margin-left: -2rem;
+    }
+
+    #song2 {
+        margin-left: -2rem;
+        margin-top: 4rem;
+    }
+
+    #hfour {
+        font-size: 2.3rem;
+        margin-left: 15.6rem;
+        color: rgb(255, 173, 143);
+        margin-top: 0rem;
+        font-family: 'Combo', cursive;
+        display: flex;
+    }
+    
+    #htwo {
+        font-size: 2.4rem;
+        margin-left: 17rem;
+        color: orangered;
+    }
+    
+    .all {
+        border: 3px solid #66ccff;
+        margin: 1rem;
+        height: 59rem;
+        background: linear-gradient(blue, pink);
+        width: 46rem;
+    }
+
+    
+}
