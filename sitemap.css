@@ -1,0 +1,313 @@
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+#pbhl {
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    user-select: none;
+}
+
+#pbhl a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 58px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#nav ul li {
+    list-style: none;
+    margin-top: 7.2rem;
+    margin-left: -2rem;
+}
+
+#nav ul li a:hover {
+    color: rgb(196, 196, 196);
+    transition: .1s linear;
+}
+
+
+#nav ul {
+    display: flex;
+    min-height: 0px;
+    min-height: 0px;
+    margin-top: -9rem;
+    margin-left: 17rem;
+    height: 148px;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 144, 0.722);
+    width: 1544px;
+    margin-left: -1rem;
+    height: 9.5rem;
+    margin-top: -10rem;
+}
+
+#loading {
+    width: 103%;
+    height: 170vh;
+    background: white url(image_processing20191002-6429-tbqgfv.gif) no-repeat center center;
+    position: fixed;
+    z-index: 9999999;
+    background-size: 30%;
+    margin-left: -1rem;
+    margin-top: -15rem;
+}
+
+#insta {
+    margin-top: 7rem;
+    margin-left: -35rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#insta:hover {
+    color: hotpink;
+}
+
+#twitter {
+    margin-top: 7rem;
+    margin-left: -32rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+#twitter:hover {
+    color: blue
+}
+
+#yt {
+    margin-top: 7rem;
+    margin-left: -29rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#yt:hover {
+    color: red;
+}
+
+#fb {
+    margin-top: 7rem;
+    margin-left: -26rem;
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#fb:hover {
+    color: rgb(130, 130, 255);
+}
+
+#sh {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.8rem;
+    font-family: 'Combo', cursive;
+    color: lightblue;
+}
+
+#loi {
+    list-style: none;
+    padding: 10px;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+
+#loi a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+#loi a:hover{
+    color: lightblue;
+    transition: .1s linear;
+}
+
+#loi li{
+    padding: 10px
+}
+
+#pbhtv {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 93rem;
+    margin-top: -3.4rem;
+    display: flex;
+    position: absolute;
+}
+
+#pbhtv:hover {
+    color: red;
+    transition: .2s ease-in-out;
+}
+
+#hamburger {
+    display: none;
+}
+
+#navfp {
+    display: none;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:430px) {
+
+    #pbhn {
+        margin-left: 12rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 19rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 23rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 26rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 26rem;
+        overflow: hidden;
+    }
+
+    #sh{
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    #loi{
+        margin-left: 5rem;
+    }
+}
+
+
+
+@media only screen and (min-width:431px) and (max-width:940px) {
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 49rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 15rem;
+        width: 57.6rem;
+        margin-left: -1rem;
+        margin-top: 0rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 52rem;
+        overflow: hidden;
+    }
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 6rem;
+        margin-left: -23rem;
+        display: inline;
+    }
+
+    #nav ul li a {
+        margin: 226px;
+        font-size: 1.2rem;
+        display: block;
+    }
+    #lu {
+        margin-top: 20rem;
+        color: blue;
+        font-weight: bold;
+        margin-left: 34rem;
+        font-size: 1.3rem;
+        font-family: 'Baloo 2', cursive;
+    }
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 44rem;
+        margin-top: -2rem;
+        display: flex;
+        position: absolute;
+    }
+
+}

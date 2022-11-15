@@ -1,0 +1,471 @@
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+#pbhl {
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    user-select: none;
+}
+
+#pbhl a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 58px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#nav ul li {
+    list-style: none;
+    margin-top: 7.2rem;
+    margin-left: -2rem;
+}
+
+#nav ul li a:hover {
+    color: rgb(196, 196, 196);
+    transition: .1s linear;
+}
+
+
+#nav ul {
+    display: flex;
+    min-height: 0px;
+    min-height: 0px;
+    margin-top: -9rem;
+    margin-left: 17rem;
+    height: 148px;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 144, 0.722);
+    width: 1544px;
+    margin-left: -1rem;
+    height: 9.5rem;
+    margin-top: -10rem;
+}
+
+#sf {
+    width: 94rem;
+    margin-left: 0rem;
+    margin-top: 25rem;
+}
+
+#hone {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-left: 33.5rem;
+    color: whitesmoke;
+    font-family: 'Combo', cursive;
+
+}
+
+#s1l {
+    height: 220px;
+    width: 228px;
+    margin-top: 1rem;
+    margin-left: 11rem;
+}
+
+
+#play {
+    margin-left: -8.6rem;
+    margin-top: 1rem;
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 20px;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    padding: 9px;
+    color: white;
+}
+
+#play:hover {
+    cursor: pointer;
+    color: rgb(209, 209, 209);
+    background-color: rgb(255, 186, 59);
+    transition: all 350ms ease 0s;
+}
+
+
+#vml {
+    margin-top: 2rem;
+    margin-left: 18rem;
+    width: 63rem;
+}
+
+#htwo {
+    font-size: 2.3rem;
+    margin-left: 9.6rem;
+    color: red;
+    margin-top: 0rem;
+    font-family: 'Combo', cursive;
+    display: flex;
+}
+
+#hfour {
+    font-size: 2.3rem;
+    margin-left: 6.6rem;
+    color: red;
+    margin-top: 0rem;
+    font-family: 'Combo', cursive;
+    display: flex;
+}
+
+
+#s2l {
+    height: 220px;
+    width: 228px;
+    margin-left: 41rem;
+
+}
+
+#hthree {
+    font-size: 2.4rem;
+    margin-left: 39rem;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+#mts {
+    margin-top: 2rem;
+    margin-left: 18rem;
+    width: 63rem;
+}
+
+.all {
+    border: 3px solid #66ccff;
+    margin: 1rem;
+    height: 29rem;
+    background: linear-gradient(blue, pink);
+}
+
+#song2 {
+    margin-left: 49rem;
+    margin-top: -21rem;
+}
+
+
+#loading {
+    width: 103%;
+    height: 117vh;
+    background: white url(image_processing20191002-6429-tbqgfv.gif) no-repeat center center;
+    position: fixed;
+    z-index: 9999999;
+    background-size: 30%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+#pbhtv {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 93rem;
+    margin-top: -3.4rem;
+    display: flex;
+    position: absolute;
+}
+
+#pbhtv:hover {
+    color: red;
+    transition: .2s ease-in-out;
+}
+
+#pbhtv:hover {
+    color: red;
+    transition: .2s ease-in-out;
+}
+
+#hamburger {
+    display: none;
+}
+
+#navfp {
+    display: none;
+}
+
+
+@media only screen and (min-width:150px) and (max-width:430px) {
+
+    #pbhn {
+        margin-left: 12rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 19rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 23rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 26rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 26rem;
+        overflow: hidden;
+    }
+
+    #hone {
+        font-size: 2.8rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        color: whitesmoke;
+        font-family: 'Combo', cursive;
+        text-align: center;
+    }
+
+
+    #s1l {
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    #vml {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 22rem;
+    }
+
+    #hthree {
+        font-size: 2.4rem;
+        margin-left: 0rem;
+        text-align: center;
+        color: white;
+    }
+
+    #s2l {
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    #mts {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 22rem;
+    }
+
+
+    .all {
+        border: 3px solid #66ccff;
+        margin: auto;
+        width: 24rem;
+        margin-top: 1rem;
+        height: 50rem;
+        margin-left: 0rem;
+    }
+
+    #song2 {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    #hfour {
+        font-size: 2.3rem;
+        margin-left: 4rem;
+        color: rgb(255, 173, 143);
+        margin-top: 0rem;
+        font-family: 'Combo', cursive;
+        display: flex;
+        text-align: center;
+    }
+
+    #htwo {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width:1024px) {
+    #navbar {
+        height: 18rem;
+        width: 48.8rem;
+        overflow: hidden;
+        margin-top: -8rem;
+    }
+
+    #wl {
+        width: 196px;
+        height: 113px;
+        display: flex;
+        margin-left: 19.5rem;
+        margin-top: 0rem;
+        min-height: 0px;
+    }
+
+
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 6rem;
+        margin-left: -23rem;
+        /* overflow: hidden; */
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 226px;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    #hgth::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 17%;
+        background: url(bck.png);
+        z-index: -1;
+        opacity: 1;
+        margin-left: -0.5rem;
+        margin-top: -2rem;
+    }
+
+    .box {
+        margin: 19px;
+        background-color: #272c4c;
+        height: 133px;
+        border-radius: 10px;
+        width: 48rem;
+    }
+
+    #fb {
+        margin-top: 24.7rem;
+        margin-left: -26rem;
+        width: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #hone {
+        font-size: 2.8rem;
+        margin-top: 1rem;
+        margin-left: 12rem;
+        color: blue;
+    }
+
+    #htwo {
+        font-size: 2.4rem;
+        margin-left: 19rem;
+        color: orangered;
+    }
+
+    #s1l {
+        height: 220px;
+        width: 228px;
+        margin-top: 1rem;
+        margin-left: 20rem;
+    }
+
+    #vml {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 48rem;
+    }
+
+    #hthree {
+        font-size: 2.4rem;
+        margin-left: 17rem;
+        color: rgb(0, 216, 0);
+    }
+
+    #s2l {
+        height: 220px;
+        width: 228px;
+        margin-left: 20rem;
+    }
+
+    #mts {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 48rem;
+    }
+
+    #all {
+        width: 48rem;
+    }
+
+    #song1 {
+        margin-left: -2rem;
+    }
+
+    #song2 {
+        margin-left: -2rem;
+        margin-top: 4rem;
+    }
+
+    #hfour {
+        font-size: 2.3rem;
+        margin-left: 15.6rem;
+        color: rgb(255, 173, 143);
+        margin-top: 0rem;
+        font-family: 'Combo', cursive;
+        display: flex;
+    }
+
+    #htwo {
+        font-size: 2.4rem;
+        margin-left: 17rem;
+        color: orangered;
+    }
+
+    .all {
+        border: 3px solid #66ccff;
+        margin: 1rem;
+        height: 59rem;
+        background: linear-gradient(blue, pink);
+        width: 46rem;
+    }
+
+
+}

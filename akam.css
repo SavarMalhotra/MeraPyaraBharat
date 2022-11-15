@@ -1,0 +1,344 @@
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+#pbhl {
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    user-select: none;
+}
+
+#pbhl a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 58px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#nav ul li {
+    list-style: none;
+    margin-top: 7.2rem;
+    margin-left: -2rem;
+}
+
+#nav ul li a:hover {
+    color: rgb(196, 196, 196);
+    transition: .1s linear;
+}
+
+
+#nav ul {
+    display: flex;
+    min-height: 0px;
+    min-height: 0px;
+    margin-top: -9rem;
+    margin-left: 17rem;
+    height: 148px;
+}
+
+
+#navbar {
+    background-color: rgba(0, 0, 144, 0.722);
+    width: 1527px;
+    margin-left: -1rem;
+    height: 9.5rem;
+    margin-top: -10rem;
+}
+
+#hone {
+    font-size: 2.8rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Merriweather', serif;
+    color: orangered;
+}
+
+#pone {
+    color: blue;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+#pone a {
+    color: blue;
+    text-decoration: none;
+}
+
+#pone a:hover {
+    color: rgb(134, 134, 255);
+    text-decoration: underline;
+}
+
+#akamh::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background: url(bck.png);
+    z-index: -1;
+    opacity: 1;
+    margin-left: -0.5rem;
+    margin-top: -1rem;
+}
+
+#ptwo {
+    font-size: 1.6rem;
+    margin-top: 6rem;
+    text-align: center;
+    color: rgb(0, 224, 0);
+    font-family: 'Merriweather', serif;
+}
+
+#player {
+    margin-left: -1rem;
+    height: 40rem;
+    width: 92rem;
+    margin-top: 2rem;
+}
+
+#pthree{
+    font-size: 1.8rem;
+    color: orangered;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+
+#pbhtv {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 92rem;
+    margin-top: -3.3rem;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    text-decoration: none;
+}
+
+#pbhtv:hover {
+    color: red;
+    transition: .2s ease-in-out;
+}
+
+
+#loading {
+    width: 101%;
+    height: 102vh;
+    background: white url(image_processing20191002-6429-tbqgfv.gif) no-repeat center center;
+    position: fixed;
+    z-index: 99999;
+    background-size: 30%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+#hamburger {
+    display: none;
+}
+
+#navfp {
+    display: none;
+}
+
+
+@media only screen and (min-width:150px) and (max-width:430px){
+
+    #pbhn {
+        margin-left: 12rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 30rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 34rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 36.9rem;
+        margin-left: -1rem;
+        margin-top: 0rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 36.9rem;
+        overflow: hidden;
+    }
+
+
+    #akamh::before {
+        content: "";
+        position: absolute;
+        width: 172%;
+        height: 45%;
+        background: url(bck.png);
+        z-index: -1;
+        opacity: 1;
+        margin-left: -0.5rem;
+        margin-top: -1em;
+    }
+
+
+    #player {
+        width: 22rem;
+        height: 13rem;
+        margin-left: -0rem;
+    }
+
+    #ptwo {
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+
+}
+
+@media only screen and (min-width:431px) and (max-width:840px) {
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 49rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        display: inline-block;
+        color: white;
+    }
+
+   
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 18rem;
+        width: 52rem;
+        margin-left: -1rem;
+        margin-top: 0rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 52rem;
+        overflow: hidden;
+    }
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 6rem;
+        margin-left: -23rem;
+        display: inline;
+    }
+
+    #nav ul li a {
+        margin: 226px;
+        font-size: 1.2rem;
+        display: block;
+    }
+    #lu {
+        margin-top: 20rem;
+        color: blue;
+        font-weight: bold;
+        margin-left: 34rem;
+        font-size: 1.3rem;
+        font-family: 'Baloo 2', cursive;
+    }
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 44rem;
+        margin-top: -2rem;
+        display: flex;
+        position: absolute;
+    }
+    #lu {
+        margin-top: 20rem;
+        color: blue;
+        font-weight: bold;
+        margin-left: 34rem;
+        font-size: 1.3rem;
+        font-family: 'Baloo 2', cursive;
+    }
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 44rem;
+        margin-top: -2rem;
+        display: flex;
+        position: absolute;
+    }
+    #akamh::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 15%;
+        background: url(bck.png);
+        z-index: -1;
+        opacity: 1;
+        margin-left: -0.5rem;
+        margin-top: -1rem;
+    }
+
+    #player {
+        margin-left: -1.5rem;
+        height: 22rem;
+        width: 47rem;
+        margin-top: 1rem;
+    }
+}

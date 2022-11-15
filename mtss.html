@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Tujhe Salaam</title>
+    <link rel="stylesheet" href="mtss.css">
+    <link rel="shortcut icon" href="PBH Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+
+    <div id="loading"></div>
+
+
+    <section id="logo">
+
+        <h1 id="pbhl"><a href="index.html">PBH</a></h1>
+    </section>
+
+    <section id="navbar">
+        <nav id="nav">
+            <ul>
+                <li class="navbar-links"><a href="index.html">Home</a></li>
+                <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
+                <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
+                <li class="navbar-links"><a href="ai.html">About India</a></li>
+                <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+
+
+        <i class="fa-solid fa-bars" id="hamburger" onclick="hm()"></i>
+        <a href="https://www.youtube.com/channel/UCEyXmWYWYkHATemhDimC-Vg" target="_blank"
+            style="text-decoration: none;">
+            <i class="fa-brands fa-youtube" id="pbhtv" title="YouTube Videos"></i>
+
+        </a>
+    </section>
+
+    <section>
+        <div class="nfp">
+            <nav id="navfp">
+                <ul>
+                    <li class="navbar-links"><a href="index.html">Home</a></li>
+                    <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
+                    <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
+                    <li class="navbar-links"><a href="ai.html">About India</a></li>
+                    <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+
+
+            </nav>
+
+        </div>
+    </section>
+
+    <img src="pexels-photo-3476860.jpeg" alt="" id="lof">
+    <h1 id="vmsn">2.Maa Tujhe Salaam</h1>
+    <audio controls autoplay id="vmsp">
+
+        <source src="videoplayback.mp3">
+
+    </audio>
+    </section>
+
+    <section>
+
+        <a href="vms.html" style="text-decoration: none;">
+            <div class="song1">
+
+                <h1 id="s1h">1.Vande Matram</h1>
+
+
+            </div>
+        </a>
+
+
+        <a href="mtss.html" style="text-decoration: none;">
+            <div class="song2">
+
+                <h1 id="s2h">2.Maa Tujhe Salaam</h1>
+                <img src="playing.gif" alt="" id="playing">
+                <h1 id="pn">Playing Now</h1>
+
+            </div>
+        </a>
+
+    </section>
+
+</body>
+
+<script>
+
+    let loader = document.getElementById('loading')
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+    }
+    )
+
+    function hm() {
+
+        let cm2 = document.getElementById('hamburger');
+        let cmbm = document.getElementById('navfp')
+
+        if (cmbm.style.display != 'block') {
+            cmbm.style.display = 'block';
+        }
+
+        else {
+            cmbm.style.display = 'none';
+        }
+
+    }
+
+</script>
+
+</html>

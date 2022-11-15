@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About India</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="PBH Logo.jpg" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="backend.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="loading"></div>
+    <section id="logo">
+
+        <h1 id="pbhl"><a href="index.html">PBH</a></h1>
+    </section>
+
+
+
+    <section id="navbar">
+        <nav id="nav">
+            <ul>
+                <li class="navbar-links"><a href="index.html">Home</a></li>
+                <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
+                <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
+                <li class="navbar-links"><a href="ai.html">About India</a></li>
+                <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+
+
+        <i class="fa-solid fa-bars" id="hamburger" onclick="hm()"></i>
+        <a href="https://www.youtube.com/channel/UCEyXmWYWYkHATemhDimC-Vg" target="_blank"
+            style="text-decoration: none;">
+            <i class="fa-brands fa-youtube" id="pbhtv" title="YouTube Videos"></i>
+
+        </a>
+    </section>
+
+    <section>
+        <div class="nfp">
+            <nav id="navfp">
+                <ul>
+                    <li class="navbar-links"><a href="index.html">Home</a></li>
+                    <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
+                    <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
+                    <li class="navbar-links"><a href="ai.html">About India</a></li>
+                    <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+
+
+            </nav>
+
+
+        </div>
+    </section>
+
+
+
+    <section id="vt">
+
+
+    <section id="contact">
+
+        <div id="contact-box">
+            <form action="https://formspree.io/f/xpznlvwp" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="What's your name ?" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="What's your email ?" required>
+                    <p id="pte">(Please type your officialy working email! This will help our team to contact you using your email)</p>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Subject" id="subject" placeholder="What's the subject ?" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" cols="30" rows="10" minlength="10" maxlength="5000"
+                        placeholder="What's up in your mind ?" required></textarea>
+                </div>
+
+                <button id="send" type="submit">Send</button>
+        </div>
+        </form>
+
+        </div>
+
+
+
+
+    </section>
+
+</html>
+</body>
+
+<script>
+    let loader = document.getElementById('loading')
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+    }
+    )
+</script>
+
+</html>
