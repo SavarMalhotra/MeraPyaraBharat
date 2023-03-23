@@ -1,5 +1,6 @@
 body {
     scroll-behavior: smooth;
+    margin: 0px;
 }
 
 * {
@@ -39,18 +40,16 @@ body {
 }
 
 
-#nav ul {
+#navbar ul {
     display: flex;
     min-height: 0px;
-    min-height: 0px;
-    margin-top: -9rem;
-    margin-left: 17rem;
-    height: 148px;
+    margin-left: 10rem;
+    list-style: none;
 }
 
 #navbar {
     background-color: rgba(0, 0, 144, 0.722);
-    width: 1544px;
+    width: 1552px;
     margin-left: -1rem;
     height: 9.5rem;
     margin-top: -10rem;
@@ -67,60 +66,11 @@ body {
     margin-top: -15rem;
 }
 
-#insta {
-    margin-top: 7rem;
-    margin-left: -35rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-#insta:hover {
-    color: hotpink;
-}
-
-#twitter {
-    margin-top: 7rem;
-    margin-left: -32rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-
-#twitter:hover {
-    color: blue
-}
-
-#yt {
-    margin-top: 7rem;
-    margin-left: -29rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-#yt:hover {
-    color: red;
-}
-
-#fb {
-    margin-top: 7rem;
-    margin-left: -26rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-#fb:hover {
-    color: rgb(130, 130, 255);
-}
-
 #sh {
     text-align: center;
     margin-top: 1rem;
     font-size: 2.8rem;
-    font-family: 'Combo', cursive;
+    font-family: sans-serif;
     color: lightblue;
 }
 
@@ -132,26 +82,26 @@ body {
 }
 
 
-#loi a{
+#loi a {
     text-decoration: none;
     font-size: 1.5rem;
     color: blue;
 }
 
-#loi a:hover{
+#loi a:hover {
     color: lightblue;
     transition: .1s linear;
 }
 
-#loi li{
+#loi li {
     padding: 10px
 }
 
 #pbhtv {
     color: white;
-    font-size: 1.5rem;
-    margin-left: 93rem;
-    margin-top: -3.4rem;
+    font-size: 2rem;
+    margin-left: 92rem;
+    margin-top: -2.6rem;
     display: flex;
     position: absolute;
 }
@@ -170,7 +120,7 @@ body {
 }
 
 
-@media only screen and (min-width:0px) and (max-width:430px) {
+@media only screen and (min-width:0px) and (max-width:414px) {
 
     #pbhn {
         margin-left: 12rem;
@@ -227,19 +177,25 @@ body {
         overflow: hidden;
     }
 
-    #sh{
+    #sh {
         margin-left: 5rem;
         margin-top: 5rem;
     }
 
-    #loi{
+    #loi {
         margin-left: 5rem;
+    }
+
+    .container {
+        display: block;
+        margin: 1rem;
+        text-align: center;
     }
 }
 
 
 
-@media only screen and (min-width:431px) and (max-width:940px) {
+@media only screen and (min-width:415px) and (max-width:940px) {
 
     #nav {
         display: none;
@@ -293,6 +249,7 @@ body {
         font-size: 1.2rem;
         display: block;
     }
+
     #lu {
         margin-top: 20rem;
         color: blue;
@@ -301,6 +258,7 @@ body {
         font-size: 1.3rem;
         font-family: 'Baloo 2', cursive;
     }
+
     #pbhtv {
         color: white;
         font-size: 2rem;

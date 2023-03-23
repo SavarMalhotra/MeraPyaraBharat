@@ -164,6 +164,7 @@ body {
     margin-top: -1em;
     margin-left: 31rem;
 }
+
 #btn1 {
     cursor: pointer;
     width: 35px;
@@ -869,7 +870,7 @@ footer {
     display: none;
 }
 
-#ia{
+#ia {
     font-weight: normal;
     font-style: normal;
     text-align: center;
@@ -877,13 +878,13 @@ footer {
     color: blue;
 }
 
-#ias{
+#ias {
     margin: 2rem;
     border: 2px solid orangered;
     border-radius: 21px;
 }
 
-#atcl1{
+#atcl1 {
     background-color: rgb(107, 107, 237);
     margin: 2rem;
     height: 15rem;
@@ -905,7 +906,7 @@ footer {
     margin-top: 2rem;
 }
 
-#daf{
+#daf {
     /* margin: 1rem; */
     border: 1.8px solid rgba(200, 65, 65, 0.842);
     border-radius: 20px;
@@ -913,14 +914,14 @@ footer {
     display: block;
 }
 
-#dafh{
+#dafh {
     font-family: sans-serif;
     font-size: 2rem;
     text-align: center;
     color: rgba(200, 65, 65, 0.842);
 }
 
-#dafp{
+#dafp {
     font-size: 1.5rem;
     display: flex;
     margin-right: 1rem;
@@ -928,11 +929,52 @@ footer {
     margin-left: 1rem;
 }
 
-#dafv{
+#dafv {
     width: 62rem;
     margin: auto;
     display: block;
     height: 35rem;
+}
+
+#aboutus {
+    border: 4px solid #ffb2bf;
+    border-radius: 20px;
+    margin: 2rem;
+    height: 16rem;
+    user-select: none;
+}
+
+#auh {
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: darkblue;
+}
+
+#aup {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-left: 34rem;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+#aui {
+    width: 24rem;
+    height: 10rem;
+    margin-left: 8rem;
+    margin-top: -10rem;
+    display: flex;
+}
+
+#aup a {
+    text-decoration: none;
+    color: rgb(86, 86, 255);
+}
+
+#aup a:hover {
+    color: rgb(12, 12, 150);
+    transition: .2s linear;
 }
 
 @media only screen and (max-width:369px) {
@@ -1006,40 +1048,6 @@ footer {
         display: block;
     }
 
-    #insta {
-        margin-top: 23.5rem;
-        margin-left: -25rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
-    #twitter {
-        margin-top: 23.5rem;
-        margin-left: -27rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #yt {
-        margin-top: 23.5rem;
-        margin-left: -23rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #fb {
-        margin-top: 23.5rem;
-        margin-left: -21rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
     #home {
         background-image: linear-gradient(red, yellow);
         height: 18.5rem;
@@ -1096,7 +1104,7 @@ footer {
         margin-left: 1rem;
     }
 
-  #km {
+    #km {
         margin-top: 1rem;
         margin-left: 10rem;
         display: block;
@@ -1445,7 +1453,7 @@ footer {
         margin-left: 8rem;
         display: block;
     }
-     
+
     #dafv {
         width: 19rem;
         margin: auto;
@@ -1461,6 +1469,36 @@ footer {
         display: block;
         width: 21rem;
     }
+
+    #aui {
+        width: 19rem;
+        height: 11rem;
+        margin-left: 1rem;
+        margin-top: -24rem;
+        display: flex;
+    }
+
+    #aboutus {
+        border: 4px solid #ffb2bf;
+        border-radius: 20px;
+        margin: 0rem;
+        height: 32rem;
+        user-select: none;
+        width: 21rem;
+        height: 29rem;
+    }
+
+    #aup {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 34rem;
+        font-family: 'Roboto', sans-serif;
+        user-select: none;
+        margin-left: 0rem;
+        margin-top: 15rem;
+    }
+
+    
 }
 
 @media only screen and (min-width:370px) and (max-width:431px) {
@@ -1532,39 +1570,6 @@ footer {
         margin: 263px;
         font-size: 0.8rem;
         display: block;
-    }
-
-    #insta {
-        margin-top: 23.5rem;
-        margin-left: -25rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
-    #twitter {
-        margin-top: 23.5rem;
-        margin-left: -27rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #yt {
-        margin-top: 23.5rem;
-        margin-left: -23rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #fb {
-        margin-top: 23.5rem;
-        margin-left: -21rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
     }
 
 
@@ -2038,40 +2043,6 @@ footer {
         display: block;
     }
 
-    #insta {
-        margin-top: 23.5rem;
-        margin-left: -25rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
-    #twitter {
-        margin-top: 23.5rem;
-        margin-left: -27rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #yt {
-        margin-top: 23.5rem;
-        margin-left: -23rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #fb {
-        margin-top: 23.5rem;
-        margin-left: -21rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
     #home {
         background-image: linear-gradient(red, yellow);
         height: 18.5rem;
@@ -2211,15 +2182,15 @@ footer {
         height: 31rem;
     }
 
-   #vs {
-    margin-left: -15rem;
-    display: flex;
-    width: 40rem;
-    height: 2.5rem;
-    margin-top: 8rem;
-    font-size: 1rem;
-    background-color: gold;
-}
+    #vs {
+        margin-left: -15rem;
+        display: flex;
+        width: 40rem;
+        height: 2.5rem;
+        margin-top: 8rem;
+        font-size: 1rem;
+        background-color: gold;
+    }
 
     #vst1 {
         margin-left: 15rem;
@@ -2471,13 +2442,42 @@ footer {
         height: 11rem;
     }
 
-#daf {
-    border: 1.8px solid rgba(200, 65, 65, 0.842);
-    border-radius: 20px;
-    margin: auto;
-    display: block;
-    width: 24rem;
-}
+    #daf {
+        border: 1.8px solid rgba(200, 65, 65, 0.842);
+        border-radius: 20px;
+        margin: auto;
+        display: block;
+        width: 24rem;
+    }
+
+    #aui {
+        width: 19rem;
+        height: 11rem;
+        margin-left: 3rem;
+        margin-top: -24rem;
+        display: flex;
+    }
+
+    #aboutus {
+        border: 4px solid #ffb2bf;
+        border-radius: 20px;
+        margin: 0rem;
+        height: 32rem;
+        user-select: none;
+        width: 24rem;
+        height: 29rem;
+    }
+
+    #aup {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 34rem;
+        font-family: 'Roboto', sans-serif;
+        user-select: none;
+        margin-left: 0rem;
+        margin-top: 15rem;
+    }
+
 }
 
 @media only screen and (min-width:431px) and (max-width:830px) {
@@ -2778,7 +2778,7 @@ footer {
         margin-left: 29.5rem;
         margin-top: 4rem;
         display: flex;
-    }    
+    }
 
     #lif {
         width: 11rem;
@@ -2923,30 +2923,30 @@ footer {
         margin-left: 2rem;
     }
 
-    #daf{
+    #daf {
         /* margin: 1rem; */
         border: 1.8px solid rgba(200, 65, 65, 0.842);
         border-radius: 20px;
         margin: auto;
         display: block;
     }
-    
-    #dafh{
+
+    #dafh {
         font-family: sans-serif;
         font-size: 2rem;
         text-align: center;
         color: rgba(200, 65, 65, 0.842);
     }
-    
-    #dafp{
+
+    #dafp {
         font-size: 1.5rem;
         display: flex;
         margin-right: 1rem;
         text-align: center;
         margin-left: 1rem;
     }
-    
-    #dafv{
+
+    #dafv {
         width: 46rem;
         margin: auto;
         display: block;
@@ -2960,9 +2960,37 @@ footer {
         display: block;
         width: 50rem;
     }
+
+    #aui {
+        width: 20rem;
+        height: 10rem;
+        margin-left: 15rem;
+        margin-top: -28rem;
+        display: flex;
+    }
+
+    #aboutus {
+        border: 4px solid #ffb2bf;
+        border-radius: 20px;
+        margin: 0rem;
+        height: 32rem;
+        user-select: none;
+        width: 50rem;
+        height: 36rem;
+    }
+
+    #aup {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-left: 34rem;
+        font-family: 'Roboto', sans-serif;
+        user-select: none;
+        margin-left: 0rem;
+        margin-top: 16rem;
+    }
 }
 
- @media only screen and (min-width:831px) and (max-width:1426px) {
+@media only screen and (min-width:831px) and (max-width:1513px) {
 
     #box {
         border: 2px solid red;
@@ -2981,17 +3009,45 @@ footer {
         display: block;
         width: 93rem;
     }
-} 
 
-@media screen and (min-width:1427px) and (max-width:1500px){
+    #aui {
+        width: 20rem;
+        height: 10rem;
+        margin-left: 36rem;
+        margin-top: -33rem;
+        display: flex;
+    }
+
+    #aboutus {
+        border: 4px solid #ffb2bf;
+        border-radius: 20px;
+        margin: 0rem;
+        height: 32rem;
+        user-select: none;
+        width: 93rem;
+        height: 41rem;
+    }
+
+    #aup {
+        text-align: center;
+        font-size: 3.5rem;
+        margin-left: 34rem;
+        font-family: 'Roboto', sans-serif;
+        user-select: none;
+        margin-left: 0rem;
+        margin-top: 16rem;
+    }
+}
+
+/* @media screen and (min-width:1427px) and (max-width:1500px) {
 
     #daf {
-        /* margin: 1rem; */
+        /* margin: 1rem; 
         border: 1.8px solid rgba(200, 65, 65, 0.842);
         border-radius: 20px;
         margin: auto;
         display: block;
         width: 93rem;
     }
-    
-}
+
+}*/

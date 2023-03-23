@@ -1,0 +1,405 @@
+#pbhl {
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    user-select: none;
+}
+
+#pbhl a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 58px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#nav ul li {
+    list-style: none;
+    margin-top: 7.2rem;
+    margin-left: -2rem;
+}
+
+#nav ul li a:hover {
+    color: rgb(196, 196, 196);
+    transition: .1s linear;
+}
+
+
+#navbar ul {
+    display: flex;
+    min-height: 0px;
+    margin-left: 10rem;
+    list-style: none;
+}
+
+
+#navbar {
+    background-color: rgba(0, 0, 144, 0.722);
+    width: 1526px;
+    margin-left: -1rem;
+    height: 9.5rem;
+    margin-top: -10rem;
+}
+
+#pbhtv {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 92rem;
+    margin-top: -2.6rem;
+    display: flex;
+    position: absolute;
+}
+
+#pbhtv:hover {
+    color: red;
+    transition: .2s ease-in-out;
+}
+
+#hamburger {
+    display: none;
+}
+
+#navfp {
+    display: none;
+}
+
+#auh {
+    text-align: center;
+    color: rgb(255, 154, 52);
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+#wipbh{
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: hotpink;
+}
+
+#aboutus{
+    border: 4px solid rgb(132, 192, 217);
+    border-radius: 21px;
+}
+
+#aup{
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: blueviolet;
+}
+
+#aui{
+    height: 18rem;
+    width: 30rem;
+display: block;
+margin: auto;
+}
+
+@media only screen and (max-width:360px) {
+
+    #pbhn {
+        margin-left: 6rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 16rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 20rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 23rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 23rem;
+        overflow: hidden;
+    }
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 4rem;
+        margin-left: -29rem;
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 263px;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+    #aui {
+        height: 10rem;
+        width: 16rem;
+        display: block;
+        margin: auto;
+    }
+    
+    #aup {
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: blueviolet;
+        display: flex;
+        margin-left: 0rem;
+    }
+    
+    #aboutus {
+        border: 4px solid rgb(132, 192, 217);
+        border-radius: 21px;
+        width: 21rem;
+    }
+
+    #auh {
+        /* text-align: center; */
+        color: rgb(255, 154, 52);
+        font-size: 2.5rem;
+        font-family: sans-serif;
+        margin-left: 3rem;
+        width: 19rem;
+    }
+}
+
+@media only screen and (min-width:361px) and (max-width:430px) {
+
+    #pbhn {
+        margin-left: 6rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 19rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 23rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 26rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 26rem;
+        overflow: hidden;
+    }
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 4rem;
+        margin-left: -29rem;
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 263px;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+    #aui {
+        height: 12rem;
+        width: 20rem;
+        display: block;
+        margin: auto;
+    }
+
+    #aup {
+        font-size: 1.2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: blueviolet;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width:830px) {
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 49rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 18rem;
+        width: 52rem;
+        margin-left: -1rem;
+        margin-top: 0rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 51.9rem;
+        overflow: hidden;
+    }
+
+    #wl {
+        width: 196px;
+        height: 113px;
+        display: flex;
+        margin-left: 19.5rem;
+        margin-top: 0rem;
+        min-height: 0px;
+    }
+
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 6rem;
+        margin-left: -23rem;
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 226px;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 1.8rem;
+        margin-left: 45rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #aboutus {
+        border: 4px solid rgb(132, 192, 217);
+        border-radius: 21px;
+        width: 51rem;
+    }
+
+    #auh {
+        text-align: center;
+        color: rgb(255, 154, 52);
+        font-size: 2.5rem;
+        font-family: sans-serif;
+        margin-left: 19rem;
+        display: block;
+        width: 13rem;
+    }
+}
+
+@media only screen and (min-width:831px) and (max-height:1513px) {
+
+    #aboutus {
+        border: 4px solid rgb(132, 192, 217);
+        border-radius: 21px;
+        width: 93rem;
+    }
+
+    #auh {
+        text-align: center;
+        color: rgb(255, 154, 52);
+        font-size: 2.5rem;
+        font-family: sans-serif;
+        margin-left: 42rem;
+        display: block;
+        width: 13rem;
+    }
+    
+}
