@@ -34,13 +34,11 @@ body{
 }
 
 
-#nav ul {
+#navbar ul {
     display: flex;
     min-height: 0px;
-    min-height: 0px;
-    margin-top: -9rem;
-    margin-left: 11rem;
-    height: 148px;
+    margin-left: 10rem;
+    list-style: none;
 }
 
 #navbar {

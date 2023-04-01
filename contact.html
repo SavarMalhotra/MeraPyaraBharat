@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>About India</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="shortcut icon" href="PBH Logo.jpg" type="image/x-icon">
     <link
@@ -32,9 +32,10 @@
         <nav id="nav">
             <ul>
                 <li class="navbar-links"><a href="index.html">Home</a></li>
+                <li class="navbar-links"><a href="pbharticles.html">PBH Articles</a></li>
                 <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
                 <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
-                <li class="navbar-links"><a href="ai.html">About India</a></li>
+                <li class="navbar-links"><a href="aboutus.html">About Us</a></li>
                 <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
 
             </ul>
@@ -54,10 +55,10 @@
             <nav id="navfp">
                 <ul>
                     <li class="navbar-links"><a href="index.html">Home</a></li>
+                <li class="navbar-links"><a href="pbharticles.html">PBH Articles</a></li>
                     <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
                     <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
-                    <li class="navbar-links"><a href="ai.html">About India</a></li>
-                    <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
+                    <li class="navbar-links"><a href="aboutus.html">About Us</a></li>
 
                 </ul>
 
@@ -107,11 +108,19 @@
 </body>
 
 <script>
-    let loader = document.getElementById('loading')
-    window.addEventListener("load", function () {
-        loader.style.display = "none";
-    }
-    )
+function hm() {
+
+let cm2 = document.getElementById('hamburger');
+let cmbm = document.getElementById('navfp')
+
+if (cmbm.style.display != 'block') {
+    cmbm.style.display = 'block';
+}
+
+else {
+    cmbm.style.display = 'none';
+}
+}
 </script>
 
 </html>

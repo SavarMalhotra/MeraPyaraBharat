@@ -34,13 +34,11 @@ body{
 }
 
 
-#nav ul {
+#navbar ul {
     display: flex;
     min-height: 0px;
-    min-height: 0px;
-    margin-top: -9rem;
-    margin-left: 11rem;
-    height: 148px;
+    margin-left: 10rem;
+    list-style: none;
 }
 
 #navbar {
@@ -54,8 +52,8 @@ body{
 #pbhtv {
     color: white;
     font-size: 1.5rem;
-    margin-left: 93rem;
-    margin-top: -3.4rem;
+    margin-left: 92rem;
+    margin-top: -2.6rem;
     display: flex;
     position: absolute;
 }
@@ -130,6 +128,10 @@ body{
 }
 
 @media only screen and (max-width:360px) {
+
+    body{
+        height: 100rem;
+    }
     #pbhn {
         margin-left: 6rem;
     }
@@ -454,44 +456,8 @@ body{
 }
 
 @media only screen and (min-width:831px) and (max-width:1426px) {
-
-    .nfp {
-        display: none;
-    }
-
     #navbar {
-        height: 18rem;
         width: 85.2rem;
-        overflow: hidden;
-    }
-
-    #wl {
-        width: 196px;
-        height: 113px;
-        display: flex;
-        margin-left: 35.5rem;
-        margin-top: 0rem;
-        min-height: 0px;
-    }
-
-    #pbhl {
-        font-family: 'Fira Sans', sans-serif;
-        color: white;
-        margin-left: 38.8rem;
-        margin-top: 0.8rem;
-    }
-
-    #nav ul li {
-        list-style: none;
-        margin-top: 6rem;
-        margin-left: -17rem;
-        display: inline;
-    }
-
-    #nav ul li a {
-        margin: 226px;
-        font-size: 1.2rem;
-        display: block;
     }
 
     #yt-embed {
@@ -565,5 +531,13 @@ body{
         }
     
     
+
+}
+
+@media only screen and (min-width:1600px) and (max-width:3000px) {
+    
+#navbar{
+    width: initial;
+}
 
 }

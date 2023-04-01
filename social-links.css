@@ -1,0 +1,712 @@
+::selection {
+    background-color: pink;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    background-color: #fad3d9;
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+#pbhl {
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    user-select: none;
+}
+
+#pbhl a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 58px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#nav ul li {
+    list-style: none;
+    margin-top: 7.2rem;
+    margin-left: -2rem;
+}
+
+#nav ul li a:hover {
+    color: rgb(196, 196, 196);
+    transition: .1s linear;
+}
+
+
+#navbar ul {
+    display: flex;
+    min-height: 0px;
+    margin-left: 10rem;
+    list-style: none;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 144, 0.722);
+    width: 1544px;
+    margin-left: -1rem;
+    height: 9.5rem;
+    margin-top: -10rem;
+}
+
+#hamburger {
+    display: none;
+}
+
+#navfp {
+    display: none;
+}
+
+
+#slinks {
+    border: 4px solid rgb(40, 197, 245);
+    border-radius: 20px;
+    height: 40rem;
+    margin-top: 1rem;
+    background: linear-gradient(blue, red);
+    margin: 1rem;
+}
+
+#slinksimg {
+    border-radius: 50%;
+    width: 17rem;
+    height: 16rem;
+    margin: auto;
+    display: block;
+    margin-top: 5rem;
+}
+
+#slinksh {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    cursor: default;
+    user-select: none;
+}
+
+#yt {
+    color: white;
+    background: red;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 40rem;
+    position: absolute;
+    margin-top: 0.2rem;
+}
+
+#yt:hover {
+    background: white;
+    color: red;
+    transition: 0.1s linear;
+    font-size: 2.5rem;
+    margin-left: 39.7rem;
+    margin-top: 0rem;
+}
+
+#website {
+    color: white;
+    background: red;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 45rem;
+    position: absolute;
+    margin-top: -1rem;
+}
+
+#website:hover {
+    background: white;
+    color: blue;
+    transition: 0.1s linear;
+    font-size: 2.5rem;
+    margin-left: 44.8rem;
+    margin-top: -1.2rem;
+}
+
+#koo {
+    color: white;
+    background: red;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin-left: 49.8rem;
+    position: absolute;
+    margin-top: -1rem;
+    width: 2rem;
+}
+
+#koo:hover {
+    background: hsl(60, 100%, 50%);
+    transition: 0.1s linear;
+    width: 2.5rem;
+    margin-left: 49.6rem;
+    margin-top: -1.2rem;
+}
+
+#lif {
+    width: 11rem;
+    height: 8rem;
+    border-radius: 45px;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+#slinksi {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 40rem;
+    display: flex;
+}
+
+@media only screen and (max-width:369px) {
+
+    #pbhn {
+        margin-left: 6rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 16rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 20rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 23rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 23rem;
+        overflow: hidden;
+    }
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 4rem;
+        margin-left: -29rem;
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 263px;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+    #aup {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 34rem;
+        font-family: 'Roboto', sans-serif;
+        user-select: none;
+        margin-left: 0rem;
+        margin-top: 15rem;
+    }
+
+    #slinks {
+        border: 4px solid rgb(40, 197, 245);
+        border-radius: 20px;
+        height: 48rem;
+        margin-top: 1rem;
+        background: linear-gradient(blue, red);
+        margin: 1rem;
+        width: 19rem;
+    }
+
+    #koo {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 11.5rem;
+        position: absolute;
+        margin-top: -1rem;
+        width: 2rem;
+    }
+
+    #website {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 7.5rem;
+        position: absolute;
+        margin-top: -1rem;
+    }
+
+    #yt {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 3.5rem;
+        position: absolute;
+        margin-top: 0.2rem;
+    }
+
+    #koo:hover {
+        background: hsl(60, 100%, 50%);
+        transition: 0.1s linear;
+    }
+
+    #yt:hover {
+        background: white;
+        color: red;
+        transition: 0.1s linear;
+
+    }
+
+    #website:hover {
+        background: white;
+        color: blue;
+        transition: 0.1s linear;
+    }
+
+    #slinksi {
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 3rem;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:370px) and (max-width:431px) {
+
+    #pbhn {
+        margin-left: 6rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 19rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 23rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: -1rem;
+        display: inline-block;
+        color: white;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 26rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 26rem;
+        overflow: hidden;
+    }
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 4rem;
+        margin-left: -29rem;
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 263px;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+    #slinks {
+        border: 4px solid rgb(40, 197, 245);
+        border-radius: 20px;
+        height: 45rem;
+        margin-top: 1rem;
+        background: linear-gradient(blue, red);
+        margin: 1rem;
+        width: 22rem;
+    }
+
+    #koo {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 13.5rem;
+        position: absolute;
+        margin-top: -1rem;
+        width: 2rem;
+    }
+
+    #website {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 9.5rem;
+        position: absolute;
+        margin-top: -1rem;
+    }
+
+    #yt {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 5.5rem;
+        position: absolute;
+        margin-top: 0.2rem;
+    }
+
+    #website:hover {
+        background: white;
+        color: blue;
+        transition: 0.1s linear;
+    }
+
+    #yt:hover {
+        background: white;
+        color: red;
+        transition: 0.1s linear;
+
+    }
+
+    #koo:hover {
+        background: hsl(60, 100%, 50%);
+        transition: 0.1s linear;
+    }
+
+    #slinksi {
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 6rem;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width:830px) {
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: 49rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    #navfp ul {
+        list-style: none;
+    }
+
+    #navfp a {
+        text-decoration: none;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        display: inline-block;
+        color: white;
+    }
+
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 18rem;
+        width: 52rem;
+        margin-left: -1rem;
+        margin-top: 0rem;
+        display: none;
+    }
+
+    #navbar {
+        height: 9rem;
+        width: 51.9rem;
+        overflow: hidden;
+    }
+
+    #wl {
+        width: 196px;
+        height: 113px;
+        display: flex;
+        margin-left: 19.5rem;
+        margin-top: 0rem;
+        min-height: 0px;
+    }
+
+
+    #nav ul li {
+        list-style: none;
+        margin-top: 6rem;
+        margin-left: -23rem;
+        display: inline;
+    }
+
+
+    #nav ul li a {
+        margin: 226px;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    #slinks {
+        border: 4px solid rgb(40, 197, 245);
+        border-radius: 20px;
+        height: 40rem;
+        margin-top: 1rem;
+        background: linear-gradient(blue, red);
+        margin: 1rem;
+        width: 92rem;
+    }
+
+    #slinks {
+        border: 4px solid rgb(40, 197, 245);
+        border-radius: 20px;
+        height: 40rem;
+        background: linear-gradient(blue, red);
+        margin: 1rem;
+        width: 48rem;
+    }
+
+    #yt {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 17rem;
+        position: absolute;
+        margin-top: 0.2rem;
+    }
+
+
+    #website {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 22rem;
+        position: absolute;
+        margin-top: -1rem;
+    }
+
+    #koo {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 27rem;
+        position: absolute;
+        margin-top: -1rem;
+        width: 2rem;
+    }
+
+    #yt:hover {
+        background: white;
+        color: red;
+        transition: 0.1s linear;
+    }
+
+    #website:hover {
+        background: white;
+        color: blue;
+        transition: 0.1s linear;
+    }
+
+    #koo:hover {
+        background: hsl(60, 100%, 50%);
+        transition: 0.1s linear;
+    }
+
+    #slinksi {
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 17rem;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:831px) and (max-width:1559px) {
+
+    #slinks {
+        border: 4px solid rgb(40, 197, 245);
+        border-radius: 20px;
+        height: 40rem;
+        margin-top: 1rem;
+        background: linear-gradient(blue, red);
+        margin: 1rem;
+        width: 92rem;
+    }
+
+}
+
+@media only screen and (min-width:1560px) and (max-width:4000px) {
+
+    #navbar {
+        background-color: rgba(0, 0, 144, 0.722);
+        width: 186.3rem;
+        margin-left: -1rem;
+        height: 9.5rem;
+        margin-top: -10rem;
+    }
+
+    #slinks {
+        border: 4px solid rgb(40, 197, 245);
+        border-radius: 20px;
+        height: 40rem;
+        margin-top: 1rem;
+        background: linear-gradient(blue, red);
+        margin: 1rem;
+        width: 182rem;
+    }
+
+    #yt {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 83rem;
+        position: absolute;
+        margin-top: 0.2rem;
+    }
+
+    #website {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 89rem;
+        position: absolute;
+        margin-top: -1rem;
+    }
+
+    #koo {
+        color: white;
+        background: red;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 2rem;
+        color: white;
+        margin-left: 95rem;
+        position: absolute;
+        margin-top: -1rem;
+        width: 2rem;
+    }
+
+    #slinksi {
+        font-size: 4rem;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 78rem;
+        display: flex;
+    }
+
+}

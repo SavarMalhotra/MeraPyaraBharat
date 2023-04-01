@@ -39,13 +39,11 @@ body {
 }
 
 
-#nav ul {
+#navbar ul {
     display: flex;
     min-height: 0px;
-    min-height: 0px;
-    margin-top: -9rem;
-    margin-left: 17rem;
-    height: 148px;
+    margin-left: 10rem;
+    list-style: none;
 }
 
 #navbar {
@@ -126,55 +124,6 @@ body {
     color: rgb(255, 234, 113);
 }
 
-#insta {
-    margin-top: 7rem;
-    margin-left: -35rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-#insta:hover {
-    color: hotpink;
-}
-
-#twitter {
-    margin-top: 7rem;
-    margin-left: -32rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-
-#twitter:hover {
-    color: blue
-}
-
-#yt {
-    margin-top: 7rem;
-    margin-left: -29rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-#yt:hover {
-    color: red;
-}
-
-#fb {
-    margin-top: 7rem;
-    margin-left: -26rem;
-    width: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-#fb:hover {
-    color: rgb(130, 130, 255);
-}
-
 #loading {
     width: 103%;
     height: 117vh;
@@ -191,7 +140,7 @@ body {
     color: white;
     font-size: 1.5rem;
     margin-left: 93rem;
-    margin-top: -3.4rem;
+    margin-top: -2.6rem;
     display: flex;
     position: absolute;
 }
@@ -268,8 +217,8 @@ body {
     #hgth::before {
         content: "";
         position: absolute;
-        width: 114.4%;
-        height: 42%;
+        width: 25.5rem;
+        height: 14rem;
         background: url(bck.png);
         z-index: -1;
         opacity: 1;
@@ -278,25 +227,43 @@ body {
     }
 
     .box {
-        height: 20rem;
+        height: 16rem;
         width: 22rem;
         margin-left: 1.5rem;
     }
 
     #ptwo {
-        margin-left: 3rem;
+        margin-left: 0rem;
+        width: 25rem;
     }
-
-
 }
 
 @media only screen and (min-width:370px) and (max-width:430px) {
-
+    
+    #pbhtv {
+        color: white;
+        font-size: 2rem;
+        margin-left: 19rem;
+        margin-top: -2rem;
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        text-decoration: none;
+    }
     #navbar {
-        height: 14rem;
-        width: 24.7rem;
+        height: 9rem;
+        width: 26rem;
         overflow: hidden;
-        margin-top: -8rem;
+    }
+
+    #navfp {
+        text-align: center;
+        background-color: rgba(0, 0, 144, 0.722);
+        height: 17rem;
+        width: 26rem;
+        margin-left: -1rem;
+        margin-top: -0.9rem;
+        display: none;
     }
 
     #wl {
@@ -308,62 +275,23 @@ body {
     }
 
 
-    #nav ul li {
+    #nav {
+        display: none;
+    }
+
+    #navfp ul {
         list-style: none;
-        margin-top: 2rem;
-        margin-left: -31rem;
-        display: inline;
-    }
-
-    #nav ul li a {
-        margin: 263px;
-        font-size: 0.8rem;
-        display: block;
-    }
-
-    #insta {
-        margin-top: 21.5rem;
-        margin-left: -25rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-
-    #twitter {
-        margin-top: 21.5rem;
-        margin-left: -27rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #yt {
-        margin-top: 21.5rem;
-        margin-left: -23rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #fb {
-        margin-top: 21.5rem;
-        margin-left: -21rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
     }
 
     #hgth::before {
         content: "";
         position: absolute;
-        width: 99.4%;
-        height: 28%;
+        width: 25.5rem;
+        height: 14rem;
         background: url(bck.png);
         z-index: -1;
         opacity: 1;
         margin-left: -0.5rem;
-        margin-top: -2rem;
         margin-top: -2rem;
     }
 
@@ -375,12 +303,20 @@ body {
 
     #ptwo {
         margin-left: 0rem;
+        width: 25rem;
     }
 
-
+    #hamburger {
+        display: block;
+        margin-left: 23rem;
+        margin-top: 6.7rem;
+        font-size: 2rem;
+        color: white;
+    }
+   
 }
 
-@media only screen and (min-width:431px) and (max-width:950px) {
+@media only screen and (min-width:431px) and (max-width:830px) {
 
     #nav {
         display: none;
@@ -455,8 +391,8 @@ body {
     #hgth::before {
         content: "";
         position: absolute;
-        width: 100%;
-        height: 27%;
+        width: 51.4rem;
+        height: 11rem;
         background: url(bck.png);
         z-index: -1;
         opacity: 1;
@@ -470,83 +406,70 @@ body {
         background-color: #272c4c;
         height: 133px;
         border-radius: 10px;
-        width: 54rem;
+        width: 49rem;
     }
 
-    #fb {
-        margin-top: 24.7rem;
-        margin-left: -26rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
+    #ptwo {
+        font-size: 1.4rem;
+        margin-top: 5rem;
+        margin-left: 0rem;
+        width: 50rem;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
     }
+
 }
 
+@media only screen and (min-width:831px) and (max-width:1535px) {
+   
+   #hgth::before {
+        content: "";
+        position: absolute;
+        width: 96rem;
+        height: 10rem;
+        background: url(bck.png);
+        z-index: -1;
+        opacity: 1;
+        margin-left: -0.5rem;
+        margin-top: -2rem;
+    }
 
-@media only screen and (min-width:950px) and (max-width:1050px) {
+    #ptwo {
+        font-size: 1.4rem;
+        margin-top: 5rem;
+        margin-left: 0rem;
+        width: 93rem;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .box {
+        margin: 5px;
+        background-color: #272c4c;
+        height: 100px;
+        border-radius: 10px;
+        width: 94rem;
+        margin-left: 0rem;
+    }
+
+    
+}
+
+@media only screen and (min-width:1600px) and (max-width:3000px) {
 
     #navbar {
-        height: 18rem;
-        width: 64.4rem;
-        overflow: hidden;
-        margin-top: -8rem;
-    }
-
-    #wl {
-        width: 196px;
-        height: 113px;
-        display: flex;
-        margin-left: 24.5rem;
-        margin-top: 0rem;
-        min-height: 0px;
-    }
-
-
-
-    #nav ul li {
-        list-style: none;
-        margin-top: 6rem;
-        margin-left: -23rem;
-        display: inline;
-    }
-
-
-    #nav ul li a {
-        margin: 226px;
-        font-size: 1.2rem;
-        display: block;
-    }
-
-
-    #insta {
-        margin-top: 24.7rem;
-        margin-left: -30rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #twitter {
-        margin-top: 24.7rem;
-        margin-left: -32rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
-
-    #yt {
-        margin-top: 24.7rem;
-        margin-left: -28rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
+        background-color: rgba(0, 0, 144, 0.722);
+        width: 124rem;
+        margin-left: -1rem;
+        height: 9.5rem;
+        margin-top: -10rem;
     }
 
     #hgth::before {
         content: "";
         position: absolute;
-        width: 102.6%;
-        height: 29%;
+        width: 124rem;
+        height: 11rem;
         background: url(bck.png);
         z-index: -1;
         opacity: 1;
@@ -554,20 +477,24 @@ body {
         margin-top: -2rem;
     }
 
+    #ptwo {
+        font-size: 1.4rem;
+        margin-top: 5rem;
+        margin-left: 0rem;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        width: 122rem;
+    }
 
     .box {
-        margin: 19px;
+        margin: 46px;
         background-color: #272c4c;
-        height: 133px;
+        height: 100px;
         border-radius: 10px;
-        width: 60rem;
+        width: 123rem;
+        margin-left: 0rem;
     }
-
-    #fb {
-        margin-top: 24.7rem;
-        margin-left: -26rem;
-        width: 20px;
-        cursor: pointer;
-        color: white;
-    }
+    
+    
+    
 }

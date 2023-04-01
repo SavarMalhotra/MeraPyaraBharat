@@ -37,7 +37,6 @@
     list-style: none;
 }
 
-
 #navbar {
     background-color: rgba(0, 0, 144, 0.722);
     width: 1526px;
@@ -73,32 +72,38 @@
     color: rgb(255, 154, 52);
     font-size: 2.5rem;
     font-family: sans-serif;
+    user-select: none;
+    cursor: default;
 }
 
-#wipbh{
+#wipbh {
     font-size: 2rem;
     font-family: sans-serif;
     text-align: center;
     color: hotpink;
+    user-select: none;
+    cursor: default;
 }
 
-#aboutus{
+#aboutus {
     border: 4px solid rgb(132, 192, 217);
     border-radius: 21px;
 }
 
-#aup{
+#aup {
     font-size: 1.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: blueviolet;
+    user-select: none;
+    cursor: default;
 }
 
-#aui{
+#aui {
     height: 18rem;
     width: 30rem;
-display: block;
-margin: auto;
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (max-width:360px) {
@@ -178,7 +183,7 @@ margin: auto;
         display: block;
         margin: auto;
     }
-    
+
     #aup {
         font-size: 1rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -187,7 +192,7 @@ margin: auto;
         display: flex;
         margin-left: 0rem;
     }
-    
+
     #aboutus {
         border: 4px solid rgb(132, 192, 217);
         border-radius: 21px;
@@ -401,5 +406,5 @@ margin: auto;
         display: block;
         width: 13rem;
     }
-    
+
 }

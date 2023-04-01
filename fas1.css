@@ -31,13 +31,11 @@
 }
 
 
-#nav ul {
+#navbar ul {
     display: flex;
     min-height: 0px;
-    min-height: 0px;
-    margin-top: -9rem;
-    margin-left: 11rem;
-    height: 148px;
+    margin-left: 10rem;
+    list-style: none;
 }
 
 #navbar {
@@ -52,7 +50,7 @@
     color: white;
     font-size: 1.5rem;
     margin-left: 93rem;
-    margin-top: -3.4rem;
+    margin-top: -2.5rem;
     display: flex;
     position: absolute;
 }
@@ -452,7 +450,7 @@
 
 @media only screen and (min-width:831px) and (max-width:1426px) {
 
-    .nfp {
+    /* .nfp {
         display: none;
     }
 
@@ -489,7 +487,7 @@
         margin: 226px;
         font-size: 1.2rem;
         display: block;
-    }
+    } */
 
     #yt-embed {
         margin: auto;

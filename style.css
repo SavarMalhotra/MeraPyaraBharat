@@ -378,7 +378,7 @@ body {
 
 footer {
     background-color: rgb(245, 245, 247);
-    height: 25rem;
+    height: 27rem;
     width: 95.4rem;
     margin-left: -1rem;
     margin-top: 3rem;
@@ -3037,17 +3037,352 @@ footer {
         margin-left: 0rem;
         margin-top: 16rem;
     }
-}
+} 
 
-/* @media screen and (min-width:1427px) and (max-width:1500px) {
+@media only screen and (min-width:1560px) and (max-width:3000px) {
+
+    #navbar {
+        background-color: rgba(0, 0, 144, 0.722);
+        width: 186.3rem;
+        margin-left: -1rem;
+        height: 9.5rem;
+        margin-top: -10rem;
+    }
+
+    #i1 {
+        width: 186.3rem;
+        height: 41rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+
+    #sl {
+        margin-left: 90.5rem;
+        margin-top: 1rem;
+        color: orangered;
+        font-size: 1.7rem;
+        font-family: "Baloo 2", cursive;
+        cursor: default;
+    }
+
+    #whatsapp {
+        font-size: 32px;
+        margin-left: 94rem;
+        color: rgb(0, 249, 0);
+        margin-top: 1rem;
+    }
+    
+    #email {
+        font-size: 32px;
+        margin-left: 94rem;
+        color: lightblue;
+        margin-top: 1rem;
+    }
+
+    #ec {
+        margin-top: -31rem;
+        margin-left: 124rem;
+        box-shadow: 5px 5px 5px gold;
+        width: 53rem;
+        display: flex;
+        height: 28rem;
+    }
+
+    #hone {
+        font-size: 3.5rem;
+        font-family: 'DynaPuff', cursive;
+        color: gold;
+        margin-left: 1rem;
+        cursor: default;
+        user-select: none;
+        margin-top: 6rem;
+    }
+
+    #pone {
+        font-size: 2rem;
+        color: rgb(255, 166, 0);
+        margin-left: 1rem;
+        font-family: 'DynaPuff', cursive;
+        cursor: default;
+        user-select: none;
+    }
+
+    #ec {
+        margin-top: -55rem;
+        margin-left: 105rem;
+        box-shadow: 5px 5px 5px gold;
+        width: 80rem;
+        display: flex;
+        height: 53rem;
+    }
 
     #daf {
-        /* margin: 1rem; 
         border: 1.8px solid rgba(200, 65, 65, 0.842);
         border-radius: 20px;
         margin: auto;
         display: block;
-        width: 93rem;
+        width: 184rem;
     }
 
-}*/
+    #dafh {
+        font-family: sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        color: rgba(200, 65, 65, 0.842);
+    }
+
+    #dafp {
+        font-size: 2.5rem;
+        display: flex;
+        margin-right: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    #dafv {
+        width: 110rem;
+        margin: auto;
+        display: block;
+        height: 35rem;
+    }
+
+    #aboutus {
+        border: 4px solid #ffb2bf;
+        border-radius: 20px;
+        margin: 2rem;
+        height: 21rem;
+        user-select: none;
+        width: 181rem;
+    }
+
+    #aui {
+        width: 35rem;
+        height: 19rem;
+        margin-left: 7rem;
+        margin-top: -15rem;
+        display: flex;
+    }
+
+    #aup {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-left: 53rem;
+        font-family: 'Roboto', sans-serif;
+        user-select: none;
+        margin-top: 6rem;
+    }
+
+    #box {
+        border: 2px solid red;
+        margin: 5rem;
+        box-shadow: 3px 3px 3px 3px rgb(229 86 86);
+        margin-top: 1rem;
+        height: 216rem;
+        width: 175rem;
+    }
+
+    #htwo {
+        color: blueviolet;
+        font-size: 4.7rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        text-align: center;
+        cursor: default;
+    }
+
+    #fh {
+        font-size: 2.8rem;
+        margin-left: 65rem;
+        margin-top: 1rem;
+        color: blue;
+        cursor: default;
+    }
+
+    #fhv {
+        margin-top: 2rem;
+        margin-left: 61rem;
+        width: 51rem;
+        cursor: default;
+        height: 39rem;
+    }
+
+    #sm {
+        font-size: 3.9rem;
+        margin-left: 68rem;
+        margin-top: 7rem;
+        color: blue;
+    }
+
+    #smp {
+        width: 45rem;
+        height: 39rem;
+        margin-top: 2rem;
+        margin-left: 63rem;
+    }
+
+    #tcp1 {
+        color: blue;
+        font-size: 3.9rem;
+        margin-top: 1rem;
+        margin-left: 66rem;
+    }
+
+    #tcpv2 {
+        width: 46rem;
+        height: 46rem;
+        margin-top: 1rem;
+        margin-left: 29rem;
+    }
+
+    #tcpv1 {
+        width: 46rem;
+        height: 39rem;
+        margin-top: 1rem;
+        margin-left: 24rem;
+    }
+
+    #idc {
+        color: blue;
+        font-size: 3.9rem;
+        margin-top: 1rem;
+        margin-left: 55rem;
+    }
+
+    #idcv {
+        width: 83rem;
+        height: 38rem;
+        margin-top: 1rem;
+        margin-left: 44rem;
+    }
+
+    #header {
+        cursor: pointer;
+        font-size: 3rem;
+        margin-left: 1rem;
+        color: orangered;
+        cursor: default;
+        width: 30rem;
+        margin-top: 1rem;
+    }
+
+    #ddmp {
+        color: rgb(255, 132, 0);
+        font-size: 3.3rem;
+        margin-left: 9.5rem;
+        text-align: center;
+        display: flex;
+        width: 165rem;
+    }
+
+    #hgti {
+        width: 186.3rem;
+        height: 500px;
+        margin-left: -1rem;
+    }
+
+    #download {
+        width: 140px;
+        height: 36px;
+        background-color: gold;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 94rem;
+        position: absolute;
+    }
+
+    #km {
+        width: 108px;
+        height: 36px;
+        background-color: gold;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 87rem;
+        position: absolute;
+    }
+
+    #vs {
+        margin-left: -1rem;
+        width: 186.3rem;
+        height: 1.8rem;
+        margin-top: 3rem;
+        background-color: gold;
+    }
+
+    #vst1 {
+        margin-left: 71rem;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        color: orangered;
+    }
+
+    #vst2 {
+        margin-left: 96rem;
+        margin-top: -3.5rem;
+        font-size: 1.6rem;
+        color: orangered;
+    }
+
+    footer {
+        background-color: rgb(245, 245, 247);
+        height: 25rem;
+        width: 186.3rem;
+        margin-left: -1rem;
+        margin-top: 3rem;
+    }
+
+    #line {
+        width: 153rem;
+        height: 32px;
+        border-bottom: 1px solid #d2d2d7;
+        margin-left: 16rem;
+        margin-top: -3rem;
+    }
+    #copyright {
+        margin-left: 26rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: #6e6e73;
+        user-select: none;
+        cursor: default;
+    }
+
+    #pbhsl {
+        margin-left: 26rem;
+        margin-top: 4rem;
+        font-size: 1rem;
+        font-family: inherit;
+        color: #6e6e73;
+        cursor: default;
+        user-select: none;
+    }
+
+    #cul {
+        color: #424245;
+        text-decoration: none;
+        margin-left: 159rem;
+        margin-top: -2rem;
+        display: flex;
+        position: absolute;
+        font-size: 1rem;
+    }
+
+    #sml {
+        color: #424245;
+        text-decoration: none;
+        margin-left: 164rem;
+        margin-top: -2rem;
+        display: flex;
+        position: absolute;
+        font-size: 1rem;
+    }
+
+    #pbhtv {
+        color: white;
+        font-size: 2.5rem;
+        margin-left: 176rem;
+        margin-top: -3rem;
+        display: flex;
+        position: absolute;
+    }
+
+}
