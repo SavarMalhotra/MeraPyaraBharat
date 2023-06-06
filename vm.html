@@ -17,55 +17,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 
 <body>
 
-    <div id="loading"></div>
-
-    <section id="logo">
-
-        <h1 id="pbhl"><a href="index.html">PBH</a></h1>
-    </section>
-
-
-
-    <section id="navbar">
-        <nav id="nav">
-            <ul>
-                <li class="navbar-links"><a href="index.html">Home</a></li>
-                <li class="navbar-links"><a href="pbharticles.html">PBH Articles</a></li>
-                <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
-                <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
-                <li class="navbar-links"><a href="aboutus.html">About Us</a></li>
-                <li class="navbar-links"><a href="contact.html">Contact Us</a></li>
-
-            </ul>
-        </nav>
-
-
-        <i class="fa-solid fa-bars" id="hamburger" onclick="hm()"></i>
-        <a href="https://www.youtube.com/channel/UCEyXmWYWYkHATemhDimC-Vg" target="_blank"
-            style="text-decoration: none;">
-            <i class="fa-brands fa-youtube" id="pbhtv" title="YouTube Videos"></i>
-
-        </a>
-    </section>
-
     <section>
-        <div class="nfp">
-            <nav id="navfp">
-                <ul>
-                    <li class="navbar-links"><a href="index.html">Home</a></li>
-                    <li class="navbar-links"><a href="pbharticles.html">PBH Articles</a></li>
-                    <li class="navbar-links"><a href="akam.html">Azadi Ka Amrit Mohotsav</a></li>
-                    <li class="navbar-links"><a href="ps.html">Patriotic Songs</a></li>
-                    <li class="navbar-links"><a href="aboutus.html">About Us</a></li>
-
-                </ul>
+        <header class="text-gray-600 body-font" style="background-color: rgba(0, 0, 144, 0.722)">
+          <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.html">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span class="ml-3 text-xl" style="user-select: none; color: white;">Pyara Bharat Hamara</span>
+            </a>
+            <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center" style="color: white">
+              <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+              <a class="mr-5 hover:text-gray-900" href="pbharticles.html">Pbh Articles</a>
+              <a class="mr-5 hover:text-gray-900" href="akam.html">Azadi Ka Amrit Mohotsav</a>
+              <a class="mr-5 hover:text-gray-900" href="ps.html">Patriotic Songs</a>
+              <a class="mr-5 hover:text-gray-900" href="aboutus.html">About Us</a>
+              <a class="mr-5 hover:text-gray-900" href="contact.html">Contact Us</a>
             </nav>
-        </div>
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href="social-links.html">Social-Links</a> 
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </header>
     </section>
 
     <section>
@@ -85,6 +66,7 @@
                 Congratulations!!You have sucessfully installed Vm Virtual Box on your pc...<br>
             </p>
         </div>
+        <br>
         <a href="vm.pdf" download>
             <button id="download-pdf">
                 Download Pdf <i class="fa-solid fa-file-pdf"></i>

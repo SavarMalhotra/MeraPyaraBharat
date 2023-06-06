@@ -72,7 +72,7 @@ body {
 #slinks {
     border: 4px solid rgb(40, 197, 245);
     border-radius: 20px;
-    height: 40rem;
+    height: auto;
     margin-top: 1rem;
     background: linear-gradient(blue, red);
     margin: 1rem;
@@ -84,7 +84,7 @@ body {
     height: 16rem;
     margin: auto;
     display: block;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 }
 
 #slinksh {
@@ -95,68 +95,6 @@ body {
     margin-top: 3rem;
     cursor: default;
     user-select: none;
-}
-
-#yt {
-    color: white;
-    background: red;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 2rem;
-    color: white;
-    margin-left: 40rem;
-    position: absolute;
-    margin-top: 0.2rem;
-}
-
-#yt:hover {
-    background: white;
-    color: red;
-    transition: 0.1s linear;
-    font-size: 2.5rem;
-    margin-left: 39.7rem;
-    margin-top: 0rem;
-}
-
-#website {
-    color: white;
-    background: red;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 2rem;
-    color: white;
-    margin-left: 45rem;
-    position: absolute;
-    margin-top: -1rem;
-}
-
-#website:hover {
-    background: white;
-    color: blue;
-    transition: 0.1s linear;
-    font-size: 2.5rem;
-    margin-left: 44.8rem;
-    margin-top: -1.2rem;
-}
-
-#koo {
-    color: white;
-    background: red;
-    border-radius: 50%;
-    padding: 10px;
-    color: white;
-    margin-left: 49.8rem;
-    position: absolute;
-    margin-top: -1rem;
-    width: 2rem;
-}
-
-#koo:hover {
-    background: hsl(60, 100%, 50%);
-    transition: 0.1s linear;
-    width: 2.5rem;
-    margin-left: 49.6rem;
-    margin-top: -1.2rem;
 }
 
 #lif {
@@ -172,541 +110,106 @@ body {
     color: white;
     font-weight: bold;
     font-family: sans-serif;
-    margin-left: 40rem;
-    display: flex;
+    /* margin-left: 40rem; */
+    display: block;
+    text-align: center;
 }
 
-@media only screen and (max-width:369px) {
-
-    #pbhn {
-        margin-left: 6rem;
-    }
-
-    #pbhtv {
-        color: white;
-        font-size: 2rem;
-        margin-left: 16rem;
-        margin-top: -2rem;
-        display: flex;
-        width: 1rem;
-        height: 1rem;
-        text-decoration: none;
-    }
-
-    #nav {
-        display: none;
-    }
-
-    #hamburger {
-        display: block;
-        margin-left: 20rem;
-        margin-top: 6.7rem;
-        font-size: 2rem;
-        color: white;
-    }
-
-    #navfp ul {
-        list-style: none;
-    }
-
-    #navfp a {
-        text-decoration: none;
-        margin-top: 2rem;
-        margin-left: -1rem;
-        display: inline-block;
-        color: white;
-    }
-
-    #navfp {
-        text-align: center;
-        background-color: rgba(0, 0, 144, 0.722);
-        height: 17rem;
-        width: 23rem;
-        margin-left: -1rem;
-        margin-top: -0.9rem;
-        display: none;
-    }
-
-    #navbar {
-        height: 9rem;
-        width: 23rem;
-        overflow: hidden;
-    }
-
-    #nav ul li {
-        list-style: none;
-        margin-top: 4rem;
-        margin-left: -29rem;
-        display: inline;
-    }
-
-
-    #nav ul li a {
-        margin: 263px;
-        font-size: 0.8rem;
-        display: block;
-    }
-
-    #aup {
-        text-align: center;
-        font-size: 1.2rem;
-        margin-left: 34rem;
-        font-family: 'Roboto', sans-serif;
-        user-select: none;
-        margin-left: 0rem;
-        margin-top: 15rem;
-    }
-
-    #slinks {
-        border: 4px solid rgb(40, 197, 245);
-        border-radius: 20px;
-        height: 48rem;
-        margin-top: 1rem;
-        background: linear-gradient(blue, red);
-        margin: 1rem;
-        width: 19rem;
-    }
-
-    #koo {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 11.5rem;
-        position: absolute;
-        margin-top: -1rem;
-        width: 2rem;
-    }
-
-    #website {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 7.5rem;
-        position: absolute;
-        margin-top: -1rem;
-    }
-
-    #yt {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 3.5rem;
-        position: absolute;
-        margin-top: 0.2rem;
-    }
-
-    #koo:hover {
-        background: hsl(60, 100%, 50%);
-        transition: 0.1s linear;
-    }
-
-    #yt:hover {
-        background: white;
-        color: red;
-        transition: 0.1s linear;
-
-    }
-
-    #website:hover {
-        background: white;
-        color: blue;
-        transition: 0.1s linear;
-    }
-
-    #slinksi {
-        font-size: 2rem;
-        color: white;
-        font-weight: bold;
-        font-family: sans-serif;
-        margin-left: 3rem;
-        display: flex;
-    }
+#ytp{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 15rem;
 }
 
-@media only screen and (min-width:370px) and (max-width:431px) {
-
-    #pbhn {
-        margin-left: 6rem;
-    }
-
-    #pbhtv {
-        color: white;
-        font-size: 2rem;
-        margin-left: 19rem;
-        margin-top: -2rem;
-        display: flex;
-        width: 1rem;
-        height: 1rem;
-        text-decoration: none;
-    }
-
-    #nav {
-        display: none;
-    }
-
-    #hamburger {
-        display: block;
-        margin-left: 23rem;
-        margin-top: 6.7rem;
-        font-size: 2rem;
-        color: white;
-    }
-
-    #navfp ul {
-        list-style: none;
-    }
-
-    #navfp a {
-        text-decoration: none;
-        margin-top: 2rem;
-        margin-left: -1rem;
-        display: inline-block;
-        color: white;
-    }
-
-    #navfp {
-        text-align: center;
-        background-color: rgba(0, 0, 144, 0.722);
-        height: 17rem;
-        width: 26rem;
-        margin-left: -1rem;
-        margin-top: -0.9rem;
-        display: none;
-    }
-
-    #navbar {
-        height: 9rem;
-        width: 26rem;
-        overflow: hidden;
-    }
-
-    #nav ul li {
-        list-style: none;
-        margin-top: 4rem;
-        margin-left: -29rem;
-        display: inline;
-    }
-
-
-    #nav ul li a {
-        margin: 263px;
-        font-size: 0.8rem;
-        display: block;
-    }
-
-    #slinks {
-        border: 4px solid rgb(40, 197, 245);
-        border-radius: 20px;
-        height: 45rem;
-        margin-top: 1rem;
-        background: linear-gradient(blue, red);
-        margin: 1rem;
-        width: 22rem;
-    }
-
-    #koo {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 13.5rem;
-        position: absolute;
-        margin-top: -1rem;
-        width: 2rem;
-    }
-
-    #website {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 9.5rem;
-        position: absolute;
-        margin-top: -1rem;
-    }
-
-    #yt {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 5.5rem;
-        position: absolute;
-        margin-top: 0.2rem;
-    }
-
-    #website:hover {
-        background: white;
-        color: blue;
-        transition: 0.1s linear;
-    }
-
-    #yt:hover {
-        background: white;
-        color: red;
-        transition: 0.1s linear;
-
-    }
-
-    #koo:hover {
-        background: hsl(60, 100%, 50%);
-        transition: 0.1s linear;
-    }
-
-    #slinksi {
-        font-size: 2rem;
-        color: white;
-        font-weight: bold;
-        font-family: sans-serif;
-        margin-left: 6rem;
-        display: flex;
-    }
+#ytp:hover{
+    color: rgb(254, 12, 12);
+    transition: 0.1s linear;
+    background-color: white;
+    border-radius: 1rem;
+}
+#wbp{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 15rem;
 }
 
-@media only screen and (min-width:431px) and (max-width:830px) {
-
-    #nav {
-        display: none;
-    }
-
-    #hamburger {
-        display: block;
-        margin-left: 49rem;
-        margin-top: 6.7rem;
-        font-size: 2rem;
-        color: white;
-    }
-
-    #navfp ul {
-        list-style: none;
-    }
-
-    #navfp a {
-        text-decoration: none;
-        margin-top: 2rem;
-        margin-left: 0rem;
-        display: inline-block;
-        color: white;
-    }
-
-
-    #navfp {
-        text-align: center;
-        background-color: rgba(0, 0, 144, 0.722);
-        height: 18rem;
-        width: 52rem;
-        margin-left: -1rem;
-        margin-top: 0rem;
-        display: none;
-    }
-
-    #navbar {
-        height: 9rem;
-        width: 51.9rem;
-        overflow: hidden;
-    }
-
-    #wl {
-        width: 196px;
-        height: 113px;
-        display: flex;
-        margin-left: 19.5rem;
-        margin-top: 0rem;
-        min-height: 0px;
-    }
-
-
-    #nav ul li {
-        list-style: none;
-        margin-top: 6rem;
-        margin-left: -23rem;
-        display: inline;
-    }
-
-
-    #nav ul li a {
-        margin: 226px;
-        font-size: 1.2rem;
-        display: block;
-    }
-
-    #slinks {
-        border: 4px solid rgb(40, 197, 245);
-        border-radius: 20px;
-        height: 40rem;
-        margin-top: 1rem;
-        background: linear-gradient(blue, red);
-        margin: 1rem;
-        width: 92rem;
-    }
-
-    #slinks {
-        border: 4px solid rgb(40, 197, 245);
-        border-radius: 20px;
-        height: 40rem;
-        background: linear-gradient(blue, red);
-        margin: 1rem;
-        width: 48rem;
-    }
-
-    #yt {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 17rem;
-        position: absolute;
-        margin-top: 0.2rem;
-    }
-
-
-    #website {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 22rem;
-        position: absolute;
-        margin-top: -1rem;
-    }
-
-    #koo {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 27rem;
-        position: absolute;
-        margin-top: -1rem;
-        width: 2rem;
-    }
-
-    #yt:hover {
-        background: white;
-        color: red;
-        transition: 0.1s linear;
-    }
-
-    #website:hover {
-        background: white;
-        color: blue;
-        transition: 0.1s linear;
-    }
-
-    #koo:hover {
-        background: hsl(60, 100%, 50%);
-        transition: 0.1s linear;
-    }
-
-    #slinksi {
-        font-size: 2rem;
-        color: white;
-        font-weight: bold;
-        font-family: sans-serif;
-        margin-left: 17rem;
-        display: flex;
-    }
+#wbp:hover{
+    color: rgb(254, 12, 12);
+    transition: 0.1s linear;
+    background-color: white;
+    border-radius: 1rem;
+}
+#kp{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 15rem;
 }
 
-@media only screen and (min-width:831px) and (max-width:1559px) {
-
-    #slinks {
-        border: 4px solid rgb(40, 197, 245);
-        border-radius: 20px;
-        height: 40rem;
-        margin-top: 1rem;
-        background: linear-gradient(blue, red);
-        margin: 1rem;
-        width: 92rem;
-    }
-
+#kp:hover{
+    color: rgb(254, 12, 12);
+    transition: 0.1s linear;
+    background-color: white;
+    border-radius: 1rem;
+}
+#fbp{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 15rem;
 }
 
-@media only screen and (min-width:1560px) and (max-width:4000px) {
+#fbp:hover{
+    color: blue;
+    transition: 0.1s linear;
+    background-color: white;
+    border-radius: 1rem;
+}
 
-    #navbar {
-        background-color: rgba(0, 0, 144, 0.722);
-        width: 186.3rem;
-        margin-left: -1rem;
-        height: 9.5rem;
-        margin-top: -10rem;
-    }
+#koo{
+    max-width: 100%;
+    height: auto;
+    width: 15%;
+    display: inline;
+}
 
-    #slinks {
-        border: 4px solid rgb(40, 197, 245);
-        border-radius: 20px;
-        height: 40rem;
-        margin-top: 1rem;
-        background: linear-gradient(blue, red);
-        margin: 1rem;
-        width: 182rem;
-    }
+#isp{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 15rem;
+}
 
-    #yt {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 83rem;
-        position: absolute;
-        margin-top: 0.2rem;
-    }
-
-    #website {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 89rem;
-        position: absolute;
-        margin-top: -1rem;
-    }
-
-    #koo {
-        color: white;
-        background: red;
-        border-radius: 50%;
-        padding: 10px;
-        font-size: 2rem;
-        color: white;
-        margin-left: 95rem;
-        position: absolute;
-        margin-top: -1rem;
-        width: 2rem;
-    }
-
-    #slinksi {
-        font-size: 4rem;
-        color: white;
-        font-weight: bold;
-        font-family: sans-serif;
-        margin-left: 78rem;
-        display: flex;
-    }
-
+#isp:hover{
+    color: hotpink;
+    transition: 0.1s linear;
+    background-color: white;
+    border-radius: 1rem;
 }
